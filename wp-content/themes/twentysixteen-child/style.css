@@ -1,0 +1,12 @@
+/*
+Theme name: Twentysixteen Child Theme
+Description: A child theme of Twentysixteen.
+Author: u3159636
+Template: twentysixteen
+Version: 1
+*/
+
+@import url("../twentysixteen/style.css");
+.site-title{
+    font-weight: 300;
+}
