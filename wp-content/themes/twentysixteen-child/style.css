@@ -7,13 +7,6 @@ Version: 1
 */
 
 @import url("../twentysixteen/style.css");
-.site-title{
-    font-weight: 300;
-}
-body{
-    background-color: antiquewhite;
-}
-
 body #content .post .entry-content {
     float: none;
     width: 100%;
@@ -29,4 +22,18 @@ body #content .post .entry-footer {
         margin: 0 7.6923%;
         width: auto;
     }
+}
+.site-title{
+    font-weight: 300;
+	  font-family: 'Source Serif Pro', serif;
+	  font-weight: bold;
+	  font-size: 35px
+}
+.header-image{
+	margin-top:0;
+	width:100%;
+	height:auto;
+  background-size: cover;
+}
+#masthead.site-header{
 }
