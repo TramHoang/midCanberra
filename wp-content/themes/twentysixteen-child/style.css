@@ -10,3 +10,23 @@ Version: 1
 .site-title{
     font-weight: 300;
 }
+body{
+    background-color: antiquewhite;
+}
+
+body #content .post .entry-content {
+    float: none;
+    width: 100%;
+}
+body #content .post .entry-footer {
+    display: none;
+}
+/* ------- Responsive code here ------- */
+
+@media only screen and (max-width:909px){
+    body #content .post .entry-content {
+        float: none;
+        margin: 0 7.6923%;
+        width: auto;
+    }
+}

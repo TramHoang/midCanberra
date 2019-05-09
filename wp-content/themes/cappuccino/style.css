@@ -1,0 +1,236 @@
+/*
+Theme Name:Cappuccino
+Theme URI: https://themefreesia.com/themes/cappuccino
+Author: Theme Freesia
+Author URI: https://themefreesia.com
+Description: Cappuccino is a WordPress Child theme exclusively built for blogger, news and education. It is clean, super flexible, fully responsive designs, amazing new features, complete 1-click website demos and lifetime free updates. Cappuccino design can be used for any type of website. It consists Contact Us Template and Gallery Template, Popular Posts widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View free demo sites at https://demo.themefreesia.com/cappuccino.
+Version: 1.0
+Text Domain: cappuccino
+Template: cocktail
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: threaded-comments, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, post-formats, sticky-post, theme-options, translation-ready, blog, news, education
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #555;
+	font-size: 14px; /* sizes= 21px to 11px */
+}
+
+.header-wrap-inner {
+	max-width: 80%;
+}
+
+#search-box .search-form {
+	background-color: #222;
+}
+
+.entry-title {
+	font-size: 24px;
+}
+
+.post-image-content {
+	width: 100%;
+	margin-right: 0;
+	float: none;
+}
+
+#sticky-header {
+	background-color: #fafafa;
+	border-top: 5px solid rgba(0, 0, 0, 1);
+}
+
+.is-sticky #sticky-header {
+	border: none;
+}
+
+.main-navigation a {
+	line-height: 45px;
+}
+
+.main-navigation > ul > li:hover > ul {
+	top: 45px;
+}
+
+.custom-header {
+	width: 80%;
+	margin: 45px auto 0;
+}
+
+.header-image-title:before {
+  content: " ";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 2px solid #fff;
+}
+
+.header-image-title {
+	background-color: rgba(0,0,0,0.1);
+	font-size: 30px;
+	width: auto;
+	border: 1px solid #fff;
+}
+
+#secondary .widget-title {
+	background-color: #F4F4F4;
+	border: none;
+	text-align: center;
+}
+
+.widget-title:after {
+	height: 2px;
+	width: 100%;
+	top: 0;
+}
+
+.feature-content {
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.our-feature-box .feature-content-wrap:hover .feature-content {
+	bottom: 0;
+}
+
+.our-feature-box .feature-content-wrap .feature-icon::before {
+	display: none;
+}
+
+.feature-title a {
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 20px;
+}
+
+#secondary {
+	padding-left: 30px;
+}
+
+.blog-holder-wrap {
+	margin: 0 -15px;
+}
+
+.blog-holder-wrap .post {
+	width: 50%;
+	float: none;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 15px;
+	margin-left: -4px;
+}
+
+.blog-holder-wrap .sticky:before {
+	display: none;
+}
+
+.blog-holder-wrap .sticky {
+	background-color: transparent;
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.our-feature-box .four-column {
+	width: 50%;
+}
+
+.our-feature-box-header {
+	margin-bottom: 40px;
+}
+
+.feature-box-description {
+	font-size: 15px;
+}
+
+
+.go-to-top .icon-bg {
+	background-color: #777;
+	border-radius: 20px;
+}
+
+.feature-background-post {
+	background-color: #333;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	min-height: 200px;
+	margin-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.feature-background-content {
+	padding: 80px 0;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.feature-background-title {
+	color: #fff;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+
+.feature-background-text {
+	font-size: 18px;
+	line-height: 1.7;
+}
+
+.feature-post-img {
+	float: left;
+	width: 40%;
+	margin-right: 20px;
+}
+
+.feature-post-content {
+	padding: 0;
+	text-align: left;
+}
+
+.feature-post-content a.more-link {
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#colophon .widget-title::after {
+	bottom: 0;
+	top: auto;
+}
+
+@media only screen and (max-width: 980px) { 
+	.is-sticky #site-navigation {
+		background-color: #333;
+	}
+}
+
+@media only screen and (max-width: 767px) { 
+	.cappuccino-color .header-image-title {
+		border: 2px solid #fff;
+		font-size: 16px;
+	}
+
+	.our-feature-box .four-column {
+		width: 100%;
+	}
+}
+
+
+/* Header Image With background Text color */
+.header-image-title {
+	background-color: rgba(0,0,0,0.3);
+	padding: 8px 26px;
+	width: auto;
+}
